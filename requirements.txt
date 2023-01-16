@@ -2,3 +2,4 @@ streamlit
 nltk
 spacy
 transformers
+st-annotated-text
