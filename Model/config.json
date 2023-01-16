@@ -1,0 +1,49 @@
+{
+  "_name_or_path": "dbmdz/bert-base-turkish-128k-cased",
+  "architectures": [
+    "BertForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "B-LOCATION",
+    "1": "B-MONEY",
+    "2": "B-PERSON",
+    "3": "I-LOCATION",
+    "4": "I-MAHK",
+    "5": "I-MONEY",
+    "6": "I-TC",
+    "7": "I-TEL",
+    "8": "I-PERSON",
+    "9": "O"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "B-LOCATION": 0,
+    "B-MONEY": 1,
+    "B-PERSON": 2,
+    "I-LOCATION": 3,
+    "I-MAHK": 4,
+    "I-MONEY": 5,
+    "I-PERSON": 8,
+    "I-TC": 6,
+    "I-TEL": 7,
+    "O": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.23.1",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 128000
+}
